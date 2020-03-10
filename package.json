@@ -1,0 +1,28 @@
+{
+  "name": "express-timeout-middleware",
+  "version": "0.1.0",
+  "description": "Module which provides timeout express middleware.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node spec/unit-runner.js",
+    "lint": "node ./node_modules/eslint/bin/eslint ./lib/ index.js ./spec/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Icenium/express-timeout-middleware.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Icenium/express-timeout-middleware/issues"
+  },
+  "homepage": "https://github.com/Icenium/express-timeout-middleware#readme",
+  "devDependencies": {
+    "eslint": "6.8.0",
+    "jasmine": "3.5.0",
+    "jasmine-expect": "4.0.3",
+    "jasmine-reporters": "2.3.2",
+    "sinon": "9.0.1"
+  }
+}
