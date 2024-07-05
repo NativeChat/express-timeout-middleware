@@ -1,11 +1,13 @@
 {
   "name": "express-timeout-middleware",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Module which provides timeout express middleware.",
   "main": "index.js",
   "scripts": {
+    "build": "echo \"Info: this is a JS package no build\" && exit 0",
     "test": "node spec/unit-runner.js",
-    "lint": "node ./node_modules/eslint/bin/eslint ./lib/ index.js ./spec/"
+    "lint": "node ./node_modules/eslint/bin/eslint ./lib/ index.js ./spec/",
+    "security-pack": "tar zcvf express-timeout-middleware.tgz --exclude='./node_modules' --exclude='.git' --exclude='coverage' --exclude='reports' --exclude='.vscode' --exclude='*.tgz' *"
   },
   "repository": {
     "type": "git",
